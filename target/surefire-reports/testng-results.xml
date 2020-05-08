@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26133" started-at="2020-05-07T22:33:26 CDT" finished-at="2020-05-07T22:33:52 CDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26133" started-at="2020-05-07T22:33:26 CDT" finished-at="2020-05-07T22:33:52 CDT">
+      <class name="tests.LoginTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.LoginTest@627551fb]" name="initialize" is-config="true" duration-ms="6676" started-at="2020-05-07T22:33:26 CDT" finished-at="2020-05-07T22:33:33 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@627551fb]" name="loginPageNavigation" duration-ms="8076" started-at="2020-05-07T22:33:33 CDT" data-provider="sendData" finished-at="2020-05-07T22:33:41 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samjohar92@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Qwerty123?!@]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTest@627551fb]" name="teardown" is-config="true" duration-ms="662" started-at="2020-05-07T22:33:42 CDT" finished-at="2020-05-07T22:33:43 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tests.LoginTest@627551fb]" name="initialize" is-config="true" duration-ms="5409" started-at="2020-05-07T22:33:43 CDT" finished-at="2020-05-07T22:33:48 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPageNavigation(java.lang.String, java.lang.String)[pri:0, instance:tests.LoginTest@627551fb]" name="loginPageNavigation" duration-ms="3092" started-at="2020-05-07T22:33:48 CDT" data-provider="sendData" finished-at="2020-05-07T22:33:51 CDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samjohar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[blank]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.LoginTest@627551fb]" name="teardown" is-config="true" duration-ms="621" started-at="2020-05-07T22:33:51 CDT" finished-at="2020-05-07T22:33:52 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
